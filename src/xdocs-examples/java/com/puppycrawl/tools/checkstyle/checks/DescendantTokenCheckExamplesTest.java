@@ -187,9 +187,9 @@ public class DescendantTokenCheckExamplesTest extends AbstractExamplesModuleTest
     }
 
     @Test
-    public void testExample18() throws Exception {
+    public void testExample17() throws Exception {
         verifyWithInlineConfigParser(
-                getPath("Example18.java"),
+                getPath("Example17.java"),
                 new String[] {
                         "3:5: At least two case statements are required."
                 });
